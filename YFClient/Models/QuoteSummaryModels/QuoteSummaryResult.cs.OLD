@@ -1,0 +1,20 @@
+﻿using System;
+using System.Runtime.Serialization;
+
+
+namespace YFClient.Models.QuoteSummaryModels
+{
+    [DataContract]
+    public class QuoteSummaryResult
+    {
+
+        [DataMember(Name = "quoteResults")]
+        public QuoteSummaryResultItem[] QuoteResults { get; set; }
+
+
+        public QuoteSummaryResult()
+        {
+        }
+    }
+
+}

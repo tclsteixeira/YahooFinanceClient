@@ -1,0 +1,9 @@
+/home/tiago/Projects/YFSharp/YFSharp/bin/Debug/YFSharp.exe
+/home/tiago/Projects/YFSharp/YFSharp/bin/Debug/YFSharp.pdb
+/home/tiago/Projects/YFSharp/YFSharp/bin/Debug/YFClient.dll
+/home/tiago/Projects/YFSharp/YFSharp/bin/Debug/YFClient.pdb
+/home/tiago/Projects/YFSharp/YFSharp/obj/x86/Debug/YFSharp.csproj.AssemblyReference.cache
+/home/tiago/Projects/YFSharp/YFSharp/obj/x86/Debug/YFSharp.csproj.CoreCompileInputs.cache
+/home/tiago/Projects/YFSharp/YFSharp/obj/x86/Debug/YFSharp.csproj.CopyComplete
+/home/tiago/Projects/YFSharp/YFSharp/obj/x86/Debug/YFSharp.exe
+/home/tiago/Projects/YFSharp/YFSharp/obj/x86/Debug/YFSharp.pdb

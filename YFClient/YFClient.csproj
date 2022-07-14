@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C424D823-A7E5-4C48-AB06-32B8905AB686}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>YFClient</RootNamespace>
+    <AssemblyName>YFClient</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="WebClient.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="IWebClient.cs" />
+    <Compile Include="Models\QuoteResponseResultItem.cs" />
+    <Compile Include="Models\QuoteResponse.cs" />
+    <Compile Include="YahooClient.cs" />
+    <Compile Include="Models\Quote.cs" />
+    <Compile Include="Models\ErrorInfo.cs" />
+    <Compile Include="Models\ChartDataModels\ChartMeta.cs" />
+    <Compile Include="Models\ChartDataModels\Period.cs" />
+    <Compile Include="Models\ChartDataModels\CurrentTradingPeriod.cs" />
+    <Compile Include="Models\ChartDataModels\ChartResultItem.cs" />
+    <Compile Include="Models\ChartDataModels\ChartQuoteIndicator.cs" />
+    <Compile Include="Models\ChartDataModels\ChartQuote.cs" />
+    <Compile Include="Models\ChartDataModels\ChartResult.cs" />
+    <Compile Include="Models\QuoteSummaryModels\AssetProfile.cs" />
+    <Compile Include="Models\QuoteSummaryModels\FormatedData.cs" />
+    <Compile Include="Models\QuoteSummaryModels\CompanyOfficer.cs" />
+    <Compile Include="Models\QuoteSummaryModels\DefaultKeyStatistics.cs" />
+    <Compile Include="Models\QuoteSummaryModels\QuoteSummaryResultItem.cs" />
+    <Compile Include="Models\QuoteSummaryModels\QuoteSummary.cs" />
+    <Compile Include="Models\QuoteSummaryModels\SummaryInstance.cs" />
+    <Compile Include="Models\JSonClass.cs" />
+    <Compile Include="Models\HistDataModels\QuoteHistData.cs" />
+    <Compile Include="Models\ChartDataModels\ChartInstance.cs" />
+    <Compile Include="Models\ChartDataModels\ChartIndicators.cs" />
+    <Compile Include="Models\QuoteSummaryModels\RecommendationTrendPeriod.cs" />
+    <Compile Include="Models\QuoteSummaryModels\RecommendationTrend.cs" />
+    <Compile Include="Models\QuoteSummaryModels\InsiderHolder.cs" />
+    <Compile Include="Models\QuoteSummaryModels\InsiderHolders.cs" />
+    <Compile Include="Models\QuoteSummaryModels\EarningTrend.cs" />
+    <Compile Include="Models\QuoteSummaryModels\EarningsEstimate.cs" />
+    <Compile Include="Models\QuoteSummaryModels\RevenueEstimate.cs" />
+    <Compile Include="Models\QuoteSummaryModels\EpsTrend.cs" />
+    <Compile Include="Models\QuoteSummaryModels\EpsRevisions.cs" />
+    <Compile Include="Models\QuoteSummaryModels\EarningsTrend.cs" />
+    <Compile Include="Models\QuoteSummaryModels\InsiderTransaction.cs" />
+    <Compile Include="Models\QuoteSummaryModels\InsiderTransactions.cs" />
+    <Compile Include="Models\QuoteSummaryModels\FinancialData.cs" />
+    <Compile Include="Models\QuoteSummaryModels\SecFiling.cs" />
+    <Compile Include="Models\QuoteSummaryModels\SecFilings.cs" />
+    <Compile Include="Models\QuoteSummaryModels\CashflowStatement.cs" />
+    <Compile Include="Models\QuoteSummaryModels\CashFlowStatementHistory.cs" />
+    <Compile Include="Models\QuoteSummaryModels\IndexTrend.cs" />
+    <Compile Include="Models\QuoteSummaryModels\Estimate.cs" />
+    <Compile Include="Models\QuoteSummaryModels\IndustryTrend.cs" />
+    <Compile Include="Models\QuoteSummaryModels\IncomeStatementHistoryItem.cs" />
+    <Compile Include="Models\QuoteSummaryModels\IncomeStatementHistory.cs" />
+    <Compile Include="Models\QuoteSummaryModels\Ownership.cs" />
+    <Compile Include="Models\QuoteSummaryModels\FundOwnership.cs" />
+    <Compile Include="Models\QuoteSummaryModels\CalendarEventsEarnings.cs" />
+    <Compile Include="Models\QuoteSummaryModels\CalendarEvents.cs" />
+    <Compile Include="Models\QuoteSummaryModels\UpgradeDowngradeHistoryItem.cs" />
+    <Compile Include="Models\QuoteSummaryModels\UpgradeDowngradeHistory.cs" />
+    <Compile Include="Models\QuoteSummaryModels\Price.cs" />
+    <Compile Include="Models\QuoteSummaryModels\BalanceSheetStatement.cs" />
+    <Compile Include="Models\QuoteSummaryModels\BalanceSheetHistory.cs" />
+    <Compile Include="Models\QuoteSummaryModels\InstitutionOwnership.cs" />
+    <Compile Include="Models\QuoteSummaryModels\MajorHoldersBreakdown.cs" />
+    <Compile Include="Models\QuoteSummaryModels\BalanceSheetHistoryQuarterly.cs" />
+    <Compile Include="Models\QuoteSummaryModels\EarningHistoryPeriod.cs" />
+    <Compile Include="Models\QuoteSummaryModels\EarningsHistory.cs" />
+    <Compile Include="Models\QuoteSummaryModels\Holder.cs" />
+    <Compile Include="Models\QuoteSummaryModels\MajorDirectHolders.cs" />
+    <Compile Include="Models\QuoteSummaryModels\MajorDirectHolder.cs" />
+    <Compile Include="Models\QuoteSummaryModels\EsgScores.cs" />
+    <Compile Include="Models\QuoteSummaryModels\ScorePerformance.cs" />
+    <Compile Include="Models\QuoteSummaryModels\NetSharePurchaseActivity.cs" />
+    <Compile Include="Models\QuoteSummaryModels\SectorTrend.cs" />
+    <Compile Include="Models\QuoteSummaryModels\IncomeStatementHistoryQuarterly.cs" />
+    <Compile Include="Models\QuoteSummaryModels\CashflowStatementHistoryQuarterly.cs" />
+    <Compile Include="Models\QuoteSummaryModels\EarningsChartQuarterly.cs" />
+    <Compile Include="Models\QuoteSummaryModels\EarningsFinancialChartBase.cs" />
+    <Compile Include="Models\QuoteSummaryModels\EarningsFinancialChartYearly.cs" />
+    <Compile Include="Models\QuoteSummaryModels\EarningsFinancialChartQuarterly.cs" />
+    <Compile Include="Models\QuoteSummaryModels\Earnings.cs" />
+    <Compile Include="Models\QuoteSummaryModels\EarningsChart.cs" />
+    <Compile Include="Models\QuoteSummaryModels\EarningsFinancialsChart.cs" />
+    <Compile Include="Models\Trending\FinanceTrend.cs" />
+    <Compile Include="Models\Trending\TrendingResult.cs" />
+    <Compile Include="Models\Trending\TrendingQuote.cs" />
+    <Compile Include="Models\Trending\TrendingQuotes.cs" />
+    <Compile Include="Models\MarketSummary\MarketSummaryResultItem.cs" />
+    <Compile Include="Models\MarketSummary\MarketSummary.cs" />
+    <Compile Include="Models\MarketSummary\MarketSummaryResponse.cs" />
+    <Compile Include="Models\AutoCompleteModels\AutoCompleteResultItem.cs" />
+    <Compile Include="Models\AutoCompleteModels\AutoCompleteResultSet.cs" />
+    <Compile Include="Models\AutoCompleteModels\AutoComplete.cs" />
+    <Compile Include="Models\ResearchInsightsModels\TechnicalEvents.cs" />
+    <Compile Include="Models\ResearchInsightsModels\KeyTechnicals.cs" />
+    <Compile Include="Models\ResearchInsightsModels\Valuation.cs" />
+    <Compile Include="Models\ResearchInsightsModels\Recommendation.cs" />
+    <Compile Include="Models\ResearchInsightsModels\InstrumentInfo.cs" />
+    <Compile Include="Models\ResearchInsightsModels\RIReportItem.cs" />
+    <Compile Include="Models\ResearchInsightsModels\RISnapshot.cs" />
+    <Compile Include="Models\ResearchInsightsModels\RICompanySnapshot.cs" />
+    <Compile Include="Models\ResearchInsightsModels\RIResult.cs" />
+    <Compile Include="Models\ResearchInsightsModels\RIFinance.cs" />
+    <Compile Include="Models\ResearchInsightsModels\ResearchInsightsInstance.cs" />
+    <Compile Include="Models\RecommendationsModels\RecommendedSymbol.cs" />
+    <Compile Include="Models\RecommendationsModels\RecommendedResultItem.cs" />
+    <Compile Include="Models\RecommendationsModels\RecommendationFinance.cs" />
+    <Compile Include="Models\RecommendationsModels\RecommendationInstance.cs" />
+    <Compile Include="Models\ScreenersModels\CriteriaMeta.cs" />
+    <Compile Include="Models\ScreenersModels\CriteriaItem.cs" />
+    <Compile Include="Models\ScreenersModels\ScreenerQuote.cs" />
+    <Compile Include="Models\ScreenersModels\ScreenerResultItem.cs" />
+    <Compile Include="Models\ScreenersModels\ScreenerFinance.cs" />
+    <Compile Include="Models\ScreenersModels\ScreenersInstance.cs" />
+    <Compile Include="Models\OptionsModels\OptionCallPutItem.cs" />
+    <Compile Include="Models\OptionsModels\OptionItem.cs" />
+    <Compile Include="Models\OptionsModels\OptionResultItem.cs" />
+    <Compile Include="Models\OptionsModels\OptionsQuote.cs" />
+    <Compile Include="Models\OptionsModels\OptionChain.cs" />
+    <Compile Include="Models\OptionsModels\OptionsInstance.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="Models\QuoteSummaryModels\" />
+    <Folder Include="Models\ChartDataModels\" />
+    <Folder Include="Models\HistDataModels\" />
+    <Folder Include="Models\Trending\" />
+    <Folder Include="Models\MarketSummary\" />
+    <Folder Include="Models\AutoCompleteModels\" />
+    <Folder Include="Models\ResearchInsightsModels\" />
+    <Folder Include="Models\RecommendationsModels\" />
+    <Folder Include="Models\ScreenersModels\" />
+    <Folder Include="Models\OptionsModels\" />
+    <Folder Include="JsonSamples\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Models\QuotesHistory.cs.OLD" />
+    <None Include="Models\HistData.cs.OLD" />
+    <None Include="Models\QuoteSummaryModels\QuoteSummaryResult.cs.OLD" />
+    <None Include="Models\ScreenersModels\ScreenerResult.cs.old" />
+    <None Include="JsonSamples\assetprofile_defaultkeystatistics.json" />
+    <None Include="JsonSamples\autoComplete.json" />
+    <None Include="JsonSamples\chart.json" />
+    <None Include="JsonSamples\chart2.json" />
+    <None Include="JsonSamples\chart3.json" />
+    <None Include="JsonSamples\histdata.json" />
+    <None Include="JsonSamples\marketSummary.json" />
+    <None Include="JsonSamples\options.json" />
+    <None Include="JsonSamples\recommendationsBySymbol.json" />
+    <None Include="JsonSamples\researchInsights.json" />
+    <None Include="JsonSamples\screener_day_gainers.json" />
+    <None Include="JsonSamples\summary_all.json" />
+    <None Include="JsonSamples\testeerr.txt" />
+    <None Include="JsonSamples\trending.json" />
+    <None Include="JsonSamples\quoteResume.json" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

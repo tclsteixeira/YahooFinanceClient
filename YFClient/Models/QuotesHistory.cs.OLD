@@ -1,0 +1,18 @@
+﻿using System;
+using System.Runtime.Serialization;
+
+namespace YFClient.Models
+{
+    [DataContract]
+    public class QuotesHistory
+    {
+
+        [DataMember]
+        public HistData Data { get; set; }
+
+        public QuotesHistory()
+        {
+
+        }
+    }
+}

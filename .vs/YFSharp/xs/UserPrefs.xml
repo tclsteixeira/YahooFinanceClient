@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{EBC296BA-EEBF-447A-9A4C-5B2113D94765}|Default">
+  <MonoDevelop.Ide.ItemProperties.YFSharpTest PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="YFSharp/Properties/AssemblyInfo.cs">
+    <Files>
+      <File FileName="YFSharp/YAHOOFinanceTest.cs" Line="48" Column="1" />
+      <File FileName="YFSharp/Program.cs" Line="4" Column="2" />
+      <File FileName="YFSharp/Properties/AssemblyInfo.cs" Line="7" Column="41" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="YFSharp" expanded="True">
+            <Node name="YFClient" expanded="True" />
+            <Node name="YFSharpTest" expanded="True">
+              <Node name="References" expanded="True" />
+              <Node name="Properties" expanded="True">
+                <Node name="AssemblyInfo.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
