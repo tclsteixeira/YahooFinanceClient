@@ -9,16 +9,6 @@ In order to use it you must have an API key. If you don't have one yet you can s
 using System;
 using YFClient;
 using YFClient.Models;
-using YFClient.Models.AutoCompleteModels;
-using YFClient.Models.ChartDataModels;
-using YFClient.Models.HistDataModels;
-using YFClient.Models.MarketSummary;
-using YFClient.Models.OptionsModels;
-using YFClient.Models.QuoteSummaryModels;
-using YFClient.Models.RecommendationsModels;
-using YFClient.Models.ResearchInsightsModels;
-using YFClient.Models.ScreenersModels;
-using YFClient.Models.Trending;
 
 namespace YFSharp
 {
@@ -29,9 +19,7 @@ namespace YFSharp
     public class YAHOOFinanceTest
     {
         // Your API key
-        //private readonly string APIKey = "put_here_your_API_Key";
-        private readonly string APIKey = "HeNhDPG5lE8wlllC4cJIL5jxiPI3c7B1edeVMgp4";
-
+        private readonly string APIKey = "put_here_your_API_Key";
 
         public YAHOOFinanceTest()
         {
