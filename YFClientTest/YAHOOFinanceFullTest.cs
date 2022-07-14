@@ -122,6 +122,7 @@ namespace YFSharp
 
                     Console.WriteLine();
                     Console.WriteLine("-------- End resumed quote info ---------");
+                    Console.WriteLine();
                 }
 
                 /*
@@ -150,6 +151,7 @@ namespace YFSharp
 
                     Console.WriteLine();
                     Console.WriteLine("-------- End history---------");
+                    Console.WriteLine();
                 }
 
 
