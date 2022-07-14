@@ -55,8 +55,8 @@ namespace YFSharp
     public class YAHOOFinanceFullTest
     {
         // Your API key
-        //private readonly string APIKey = "put_here_your_API_Key";
-        private readonly string APIKey = "HeNhDPG5lE8wlllC4cJIL5jxiPI3c7B1edeVMgp4";
+        // To get an API key, subscribe the free plan at https://www.yahoofinanceapi.com/tutorial
+        private readonly string APIKey = "put_here_your_API_Key";
 
 
         public YAHOOFinanceFullTest()
