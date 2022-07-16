@@ -164,7 +164,6 @@
     <Folder Include="JsonSamples\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Models\ScreenersModels\ScreenerResult.cs.old" />
     <None Include="JsonSamples\assetprofile_defaultkeystatistics.json" />
     <None Include="JsonSamples\autoComplete.json" />
     <None Include="JsonSamples\chart.json" />

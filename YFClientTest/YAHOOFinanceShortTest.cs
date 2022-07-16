@@ -42,6 +42,9 @@ namespace YFSharp
     /// <summary>
     /// Class to test YAHOO Finance API client library (YFClient.cs).
     /// </summary>
+    /// <remarks>
+    /// Tested with Mono version 6.12.0.182 on Debian 11.
+    /// </remarks>
     public class YAHOOFinanceShortTest
     {
         // Your API key
