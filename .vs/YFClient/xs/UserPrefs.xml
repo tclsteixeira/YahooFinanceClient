@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{EBC296BA-EEBF-447A-9A4C-5B2113D94765}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="YFClientTest/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="YFClientTest/YAHOOFinanceFullTest.cs">
     <Files>
-      <File FileName="YFClientTest/YAHOOFinanceFullTest.cs" Line="58" Column="1" />
+      <File FileName="YFClientTest/YAHOOFinanceFullTest.cs" Line="56" Column="8" />
       <File FileName="YFClient/WebClient.cs" Line="99" Column="1" />
       <File FileName="YFClientTest/YAHOOFinanceShortTest.cs" Line="48" Column="19" />
       <File FileName="YFClientTest/Program.cs" Line="11" Column="5" />
@@ -10,30 +10,15 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="YFClient" expanded="True">
-            <Node name="YFClient" expanded="True">
-              <Node name="Models" expanded="True">
-                <Node name="AutoCompleteModels" expanded="True" />
-                <Node name="ChartDataModels" expanded="True" />
-                <Node name="HistDataModels" expanded="True" />
-                <Node name="MarketSummary" expanded="True" />
-                <Node name="OptionsModels" expanded="True" />
-                <Node name="QuoteSummaryModels" expanded="True" />
-                <Node name="RecommendationsModels" expanded="True" />
-                <Node name="ResearchInsightsModels" expanded="True" />
-                <Node name="ScreenersModels" expanded="True" />
-                <Node name="Trending" expanded="True" />
-              </Node>
-            </Node>
+            <Node name="Solution Items" expanded="True" />
+            <Node name="YFClient" expanded="True" />
             <Node name="YFClientTest" expanded="True">
               <Node name="References" expanded="True" />
               <Node name="Properties" expanded="True" />
-              <Node name="Program.cs" selected="True" />
+              <Node name="YAHOOFinanceFullTest.cs" selected="True" />
             </Node>
           </Node>
         </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
