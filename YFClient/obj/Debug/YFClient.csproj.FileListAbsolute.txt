@@ -8,4 +8,3 @@
 /DATALINUXSHARE/Projetos/GithubProjects/YFClientSharp/YFClient/obj/Debug/YFClient.csproj.CoreCompileInputs.cache
 /DATALINUXSHARE/Projetos/GithubProjects/YFClientSharp/YFClient/obj/Debug/YFClient.dll
 /DATALINUXSHARE/Projetos/GithubProjects/YFClientSharp/YFClient/obj/Debug/YFClient.pdb
-/DATALINUXSHARE/Projetos/GithubProjects/YFClientSharp/YFClient/obj/Debug/YFClient.csproj.AssemblyReference.cache

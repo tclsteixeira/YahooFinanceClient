@@ -3,22 +3,13 @@
   **YFClient** is a csharp self-contained client library that provides full access to the 2022 Yahoo Finance API.
 In order to use it you must have an API key. If you don't have one yet you can subscribe the free plan at [https://www.yahoofinanceapi.com/tutorial](https://www.yahoofinanceapi.com/tutorial).
 
+
 ### Usage example
 
 ```csharp
 using System;
 using YFClient;
 using YFClient.Models;
-using YFClient.Models.AutoCompleteModels;
-using YFClient.Models.ChartDataModels;
-using YFClient.Models.HistDataModels;
-using YFClient.Models.MarketSummary;
-using YFClient.Models.OptionsModels;
-using YFClient.Models.QuoteSummaryModels;
-using YFClient.Models.RecommendationsModels;
-using YFClient.Models.ResearchInsightsModels;
-using YFClient.Models.ScreenersModels;
-using YFClient.Models.Trending;
 
 namespace YFSharp
 {
@@ -29,10 +20,8 @@ namespace YFSharp
     public class YAHOOFinanceTest
     {
         // Your API key
-        //private readonly string APIKey = "put_here_your_API_Key";
-        private readonly string APIKey = "HeNhDPG5lE8wlllC4cJIL5jxiPI3c7B1edeVMgp4";
-
-
+        private readonly string APIKey = "put_here_your_API_Key";
+       
         public YAHOOFinanceTest()
         {
         }
@@ -41,6 +30,9 @@ namespace YFSharp
         /// <summary>
         /// Tests the Yahoo Finance API client library 'YFClient'.
         /// </summary>
+	/// <remarks>
+	/// Tested with Mono version 6.12.0.182 on a Debian 11 OS.
+	/// </remarks>
         public async void Teste()
         {
             try

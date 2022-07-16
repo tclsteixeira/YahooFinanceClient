@@ -1,6 +1,6 @@
 ﻿/******************************************************************************
  *                                                                            *
- * Test Yahoo finance (v6 and v7) api client library.                               *
+ * Test Yahoo finance (v6 and v7) api client library (2022).                         *
  *                                                                            *
  * In order to use Yahoo finance services you must have an API key.           *
  * To subscribe the free plan go to https://www.yahoofinanceapi.com/tutorial  *
