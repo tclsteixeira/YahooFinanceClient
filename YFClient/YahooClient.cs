@@ -233,7 +233,7 @@ namespace YFClient
         public const string C_STR_SCREENER_top_mutual_funds = "top_mutual_funds";
         public const string C_STR_SCREENER_portfolio_anchors = "portfolio_anchors";
         public const string C_STR_SCREENER_solid_large_growth_funds = "solid_large_growth_funds";
-        public const string C_STR_SCREENER_solid_mid_cap_growth_funds = "solid_mid-cap_growth_funds";
+        public const string C_STR_SCREENER_solid_mid_cap_growth_funds = "solid_midcap_growth_funds";
         public const string C_STR_SCREENER_conservative_foreign_funds = "conservative_foreign_funds";
         public const string C_STR_SCREENER_high_yield_bond = "high_yield_bond";
 
@@ -840,7 +840,7 @@ namespace YFClient
             try
             {
                 // download json file
-                string json = await this.DownloadScreenerFile(scrIds);
+                string json = await this.DownloadScreenerFile(scrIds, count);
 
                 // deserialize to object class
                 FResult = Deserialize<ScreenersInstance>(json);

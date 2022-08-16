@@ -1,21 +1,24 @@
 ﻿<Properties StartupConfiguration="{EBC296BA-EEBF-447A-9A4C-5B2113D94765}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="YFClientTest/YAHOOFinanceFullTest.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="YFClient/YahooClient.cs">
     <Files>
       <File FileName="YFClientTest/YAHOOFinanceFullTest.cs" Line="56" Column="8" />
       <File FileName="YFClient/WebClient.cs" Line="99" Column="1" />
       <File FileName="YFClientTest/YAHOOFinanceShortTest.cs" Line="48" Column="19" />
       <File FileName="YFClientTest/Program.cs" Line="11" Column="5" />
+      <File FileName="YFClient/JsonSamples/screener_day_gainers.json" Line="1" Column="1" />
+      <File FileName="YFClient/YahooClient.cs" Line="27" Column="4" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="YFClient" expanded="True">
             <Node name="Solution Items" expanded="True" />
-            <Node name="YFClient" expanded="True" />
+            <Node name="YFClient" expanded="True">
+              <Node name="YahooClient.cs" selected="True" />
+            </Node>
             <Node name="YFClientTest" expanded="True">
               <Node name="References" expanded="True" />
               <Node name="Properties" expanded="True" />
-              <Node name="YAHOOFinanceFullTest.cs" selected="True" />
             </Node>
           </Node>
         </State>
